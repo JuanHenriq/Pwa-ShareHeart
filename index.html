@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShareHeart</title>
     <link rel="stylesheet" href="assets/css/index.css" />
     <script src="assets/js/navbar.js"></script>
-    <title>ShareHeart</title>
+    <script src="assets/js/popup.js"></script>
+
 </head>
 
 <body>
@@ -32,11 +35,67 @@
             </ul>
     </header>
 
+    <div id="popup1" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <div class="content-container">
+                <img class="donate-popup" src="assets/img/doacao_palestina.avif">
+                <div class="text-content">
+                    <h2>Corações Solidários</h2>
+                    <p>Corações Solidários é uma organização sem fins lucrativos dedicada a transformar vidas através da
+                        solidariedade. Nosso objetivo é apoiar comunidades carentes, oferecendo recursos e assistência
+                        para superar desafios e construir um futuro melhor. Suas doações nos ajudam a continuar nossa
+                        missão de amor e compaixão.</p>
+                        
+                        <p><a href="tel:81 912345678">Tefone: +55 81 912345678</a></p>
+                        <p><a href="mailto:fundacaocoracoes@contato.com">Email: fundacaocoracoes@contato.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="popup2" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <div class="content-container">
+                <img class="donate-popup" src="assets/img/crianca_doacao.avif">
+                <div class="text-content">
+                    <h2>Futuro da Criança</h2>
+                    <p>Futuro da Criança é uma ONG comprometida com o bem-estar e desenvolvimento das crianças.
+                        Acreditamos que cada criança merece um começo de vida saudável e oportunidades para crescer e
+                        aprender. Suas contribuições financiam programas educacionais, saúde infantil e proteção contra
+                        a violência, garantindo um futuro brilhante para nossos pequenos.</p>
+                        <p><a href="tel:81 912345678">Telefone: +55 81 912345678</a></p>
+                        <p><a href="mailto:fundacaocrianca@contato.com">Email: fundacaocrianca@contato.com</a></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="popup3" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <div class="content-container">
+                <img class="donate-popup" src="assets/img/doacao_alimento.avif">
+                <div class="text-content">
+                    <h2>Alimente a Esperança</h2>
+                    <p>Alimente a Esperança é uma iniciativa humanitária focada em combater a fome e a insegurança
+                        alimentar. Trabalhamos incansavelmente para fornecer alimentos nutritivos às famílias que
+                        enfrentam dificuldades, promovendo saúde e esperança. Com sua ajuda, podemos alcançar mais
+                        pessoas e alimentar mais sonhos.</p>
+                        <p><a href="tel:81 912345678">Telefone: +55 81 912345678</a></p>
+                        <p><a href="mailto:fundacaoalimentos@contato.com">Email: fundacaoalimentos@contato.com</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <section class="home-banner">
         <div class="hero-text">
             <h1>JUNTOS, PODEMOS FAZER A DIFERENÇA!</h1>
-
         </div>
         <div>
             <p>Sua doação pode transformar vidas e construir um futuro mais brilhante.</p>
@@ -93,16 +152,75 @@
 
     <section class="content-variant">
         <div class="impact-section">
-          <img class="impact-image" src="assets/img/impacto.avif">
-          <div class="text-content">
-            <h2>ENTENDA</h2>
-            <h1>Impacto das Doações</h1>
-            <p>Aqui, compartilhamos histórias inspiradoras sobre o impacto das doações. Conheça as pessoas e comunidades
-                que foram beneficiadas graças à sua generosidade. Cada doação faz a diferença, e queremos celebrar essas
-                conquistas juntos.</p>
-          </div>
+            <img class="impact-image" src="assets/img/impacto.avif">
+            <div class="text-content">
+                <h2>ENTENDA</h2>
+                <h1>Impacto das Doações</h1>
+                <p>Aqui, compartilhamos histórias inspiradoras sobre o impacto das doações. Conheça as pessoas e
+                    comunidades
+                    que foram beneficiadas graças à sua generosidade. Cada doação faz a diferença, e queremos celebrar
+                    essas
+                    conquistas juntos.</p>
+            </div>
         </div>
-      </section>      
+    </section>
+
+    <section class="content">
+        <h2>AJUDE</h2>
+        <h1>Eles precisam de você</h1>
+        <div class="paragraph-content">
+            <p>Apoie, faça do mundo um lugar melhor! Mostre apoio às ONGS e faça a diferença com alguns cliques.</p>
+        </div>
+    </section>
+
+    <div class="donates">
+        <div class="donate-content">
+            <img class="donate-img" src="assets/img/doacao_palestina.avif">
+            <h4 class="donate-title">Corações Solidários</h4>
+            <p class="donate-description">Apoie causas sociais e fortaleça comunidades. Sua contribuição faz a diferença
+                na vida de muitos.</p>
+            <div class="acess">
+                <button id="btn1" onclick="openPopup('popup1')">Saiba Mais</button>
+            </div>
+        </div>
+        <div class="donate-content">
+            <img class="donate-img" src="assets/img/crianca_doacao.avif">
+            <h4 class="donate-title">Futuro da Criança</h4>
+            <p class="donate-description">Ajude a construir um futuro brilhante. Sua doação traz esperança e
+                oportunidades para crianças necessitadas.</p>
+            <div class="acess">
+                <button id="btn2" onclick="openPopup('popup2')">Saiba Mais</button>
+            </div>
+        </div>
+        <div class="donate-content">
+            <img class="donate-img" src="assets/img/doacao_alimento.avif">
+            <h4 class="donate-title">Alimente a Esperança</h4>
+            <p class="donate-description">Combata a fome com generosidade. Cada doação ajuda a levar alimentos a quem
+                mais precisa de seu apoio.</p>
+            <div class="acess">
+                <button id="btn3" onclick="openPopup('popup3')">Saiba Mais</button>
+            </div>
+        </div>
+    </div>
+
+    <section class="content-variant">
+        <div class="voluntary-section">
+            <img class="voluntary-image" src="assets/img/voluntarios.avif">
+            <div class="text-content">
+                <h2>SEJA</h2>
+                <h1>Um Voluntário</h1>
+                <p>Além das doações, incentivamos o voluntariado ativo. Seja parte de projetos locais, participe de
+                    eventos de limpeza, ou ofereça seu tempo e habilidades para causas que você acredita. O voluntariado
+                    é uma maneira poderosa de contribuir para um mundo melhor.</p>
+                <div class="hiperlink"><a href="#">Quero ser um voluntário</a></div>
+            </div>
+        </div>
+    </section>
+
 </body>
+
+<footer>
+    <div class="footer">OBRIGADO!</div>
+</footer>
 
 </html>
