@@ -21,16 +21,6 @@ window.addEventListener("click", function (event) {
   }
 });
 
-// Determinando os popups
-var popup1 = document.getElementById("popup1");
-var popup2 = document.getElementById("popup2");
-var popup3 = document.getElementById("popup3");
-
-// Determinando botões que abriram os popups
-var btn1 = document.getElementById("myBtn1");
-var btn2 = document.getElementById("myBtn2");
-var btn3 = document.getElementById("myBtn3");
-
 // Abre os popups pelos IDs
 btn1.onclick = function () {
   openPopup("popup1");

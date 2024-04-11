@@ -1,0 +1,137 @@
+[
+  {
+    "nome": "Associação de Orientação às Cooperativas do Nordeste (Assocene)",
+    "endereco": "Rua Leão Coroado, 45 - Boa Vista, Recife-PE",
+    "telefone": "(81) 3033-9633/ 4141.0950",
+    "email": "assocene@assocene.org.br",
+    "site": "www.assocene.org.br",
+    "latitude": -8.051477,
+    "longitude": -34.876125
+  },
+  {
+    "nome": "Cáritas Brasileira Regional Nordeste II",
+    "endereco": "Rua Monte Castelo, 176 - Boa Vista, Recife – PE",
+    "telefone": "(81) 3231-3435",
+    "email": "",
+    "site": "www.caritasne2.org.br",
+    "latitude": -8.057686,
+    "longitude": -34.880080
+  },
+  {
+    "nome": "Centro de Estudos e Ação Social Rural (CEAS Rural)",
+    "endereco": "Rua Roderick da Rocha Leão, 152 A, 1º Andar - Nova Palmares, Palmares - PE",
+    "telefone": "(81) 3661-0305",
+    "email": "",
+    "site": "",
+    "latitude": -8.686025,
+    "longitude": -35.560656
+  },
+  {
+    "nome": "Centro das Mulheres do Cabo",
+    "endereco": "Rua Padre Antônio Alves, 20 – Centro, Cabo de Santo Agostinho – PE",
+    "telefone": "(81) 3524-9170 / 3524-9173 / 3521-9366 / 3521-4798",
+    "email": "cmc@mulheresdocabo.org.br",
+    "site": "www.mulheresdocabo.org.br",
+    "latitude": -8.290301,
+    "longitude": -35.024073
+  },
+  {
+    "nome": "Centro de Desenvolvimento Agroecológico Sabiá",
+    "endereco": "Rua do Sossego, 355 – Santo Amaro, Recife-PE",
+    "telefone": "(81) 3223-7026/ 3223-3323",
+    "email": "sabia@centrosabia.org.br",
+    "site": "www.centrosabia.org.br",
+    "latitude": -8.063377,
+    "longitude": -34.884648
+  },
+  {
+    "nome": "Centro de Educação e Cultura do Trabalhador Rural (Centru)",
+    "endereco": "Rua Governador Agamenon Magalhães, 14 - Nova Catende, Catende - PE",
+    "telefone": "",
+    "email": "",
+    "site": "",
+    "latitude": -8.674828,
+    "longitude": -35.698358
+  },
+  {
+    "nome": "Centro de Estudos e Pesquisas Josué de Castro",
+    "endereco": "Rua de São Gonçalo, 118 - Boa Vista, Recife, PE",
+    "telefone": "(81) 3423-2800",
+    "email": "cjc@josuedecastro.org.br",
+    "site": "www.josue decastro.org.br",
+    "latitude": -8.057161,
+    "longitude": -34.876354
+  },
+  {
+    "nome": "Comissão Pastoral da Terra - Nordeste II",
+    "endereco": "Rua Esperanto, 490 - Ilha do Leite, Recife – PE",
+    "telefone": "(81) 3231-4445",
+    "email": "info@cptpe.org.br",
+    "site": "www.cptpe.org.br",
+    "latitude": -8.055815,
+    "longitude": -34.897201
+  },
+  {
+    "nome": "Federação de Órgãos para Assistência Social e Educacional (Fase) Fase Pernambuco",
+    "endereco": "Rua Viscondessa do Livramento, 168 – Derby, Recife – PE",
+    "telefone": "(81) 3221-5478",
+    "email": "",
+    "site": "www.fase.org.br",
+    "latitude": -8.062194,
+    "longitude": -34.908086
+  },
+  {
+    "nome": "Fundação de Proteção à Saúde e Meio Ambiente (Fusama)",
+    "endereco": "Rua 23 de julho, 44 – Centro, Amaraji - PE",
+    "telefone": "(81) 3553-1935",
+    "email": "",
+    "site": "www.fusama.org.br",
+    "latitude": -8.401743,
+    "longitude": -35.454779
+  },
+  {
+    "nome": "Instituto Cidadania do Nordeste (ICN)",
+    "endereco": "Av. Visconde de Suassuna, 82 - Boa Vista, Recife – PE",
+    "telefone": "(81) 3424-6177",
+    "email": "",
+    "site": "www.cidadanianordeste.org.br",
+    "latitude": -8.068193,
+    "longitude": -34.888559
+  },
+  {
+    "nome": "Instituto Memorial do Trabalho (IMT)",
+    "endereco": "Rua Inácio Galvão Santos, 264 – Encruzilhada, Recife – PE",
+    "telefone": "(81) 3241-1206",
+    "email": "",
+    "site": "",
+    "latitude": -8.040593,
+    "longitude": -34.901957
+  },
+  {
+    "nome": "Pastoral da Criança",
+    "endereco": "",
+    "telefone": "",
+    "email": "",
+    "site": "www.pastoraldacrianca.org.br",
+    "latitude": null,
+    "longitude": null
+  },
+  {
+    "nome": "Serviço de Tecnologia Alternativa (Serta)",
+    "endereco": "Campus Glória do Goitá, Rodovia PE-50, Km 14, Campo da Sementeira/Área Rural, Glória do Goitá – PE",
+    "telefone": "(81) 3658-1265/ 3658-1226",
+    "email": "serta@serta.org.br",
+    "site": "www.serta.org.br",
+    "latitude": -7.902669,
+    "longitude": -35.290698
+  },
+  {
+    "nome": "Sociedade Nordestina de Ecologia (SNE)",
+    "endereco": "Av. Visconde de Suassuna, 923 sala 503 - Boa Vista, Recife – PE",
+    "telefone": "(81) 3212-0590",
+    "email": "sne@sne.org.br",
+    "site": "www.sne.org.br",
+    "latitude": -8.053729,
+    "longitude": -34.884771
+  }
+]
