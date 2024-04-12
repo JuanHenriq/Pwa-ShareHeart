@@ -44,7 +44,6 @@ function initMap() {
     .then((response) => response.json())
     .then((data) => {
       data.forEach((item) => {
-        console.log("entrei na pasta.");
         const marker = new google.maps.Marker({
           position: { lat: item.latitude, lng: item.longitude },
           map: map,
