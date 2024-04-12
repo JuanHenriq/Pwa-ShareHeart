@@ -25,7 +25,7 @@ function initMap() {
             fillColor: "orange",
             fillOpacity: 1,
             scale: 10,
-            strokeWeight: 1,
+            strokeWeight: 1
           },
         });
 
@@ -71,6 +71,6 @@ function initMap() {
 
 window.initMap = initMap;
 
-window.addEventListener("pageshow", function (event) {
+window.addEventListener('pageshow', function(event) {
   initMap();
 });
