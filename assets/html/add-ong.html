@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Add Donate pwa" />
+
+    <link rel="stylesheet" href="../css/add-ong.css" />
+
+    <title>Adicionar ONG</title>
+  </head>
+  <header>
+    <h1>Adicione sua ONG</h1>
+  </header>
+  <body>
+    <div class="formulario" id="appCep">
+      <section class="add-event-content">
+        <form method="get" action="./doing.html">
+          <input type="text" placeholder="Título da ONG" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Descrição da ONG"
+          ></textarea>
+          <input type="tel" name="" id="telefone" placeholder="Telefone" />
+          <input type="tel" name="" id="celular" placeholder="Celular" />
+          <input type="date" name="" id="" placeholder="Data de criação" />
+          <input type="file" id="image_upload" />
+          <h2>Endereço da ONG</h2>
+          <div class="double-inputs">
+            <input
+              type="text"
+              name="cep"
+              id="cep"
+              placeholder="CEP"
+              value=""
+              size="10"
+              maxlength="9"
+              onblur="pesquisacep(this.value);"
+            />
+            <input type="text" name="rua" id="rua" placeholder="Rua" />
+          </div>
+          <input type="text" name="bairro" id="bairro" placeholder="Bairro" />
+          <input type="text" name="" id="" placeholder="Número" />
+          <input type="text" name="cidade" id="cidade" placeholder="Cidade" />
+          <input type="text" name="uf" id="uf" placeholder="Estado" />
+          <input type="submit" value="Adicionar ONG" />
+        </form>
+      </section>
+    </div>
+    <div id="mobile-footer">
+      <a href="home.html" class="mobile-footer-link">
+        <img src="../icon/home.png" alt="home" class="custom-icon" />
+      </a>
+      <a href="map.html" class="mobile-footer-link">
+        <img src="../icon/map.png" alt="mapa" class="custom-icon" />
+      </a>
+      <a href="donate-news.html" class="mobile-footer-link">
+        <img src="../icon/history.png" alt="histórico" class="custom-icon" />
+      </a>
+      <a href="profile.html" class="mobile-footer-link">
+        <img src="../icon/profile.png" alt="perfil" class="custom-icon" />
+      </a>
+    </div>
+    <script src="../js/cep.js"></script>
+  </body>
+</html>

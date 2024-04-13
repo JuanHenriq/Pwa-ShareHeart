@@ -1,0 +1,23 @@
+{
+    "news": [
+      {
+        "title": "Corações Solidários",
+        "description": "Corações Solidários constrói novos centros comunitários em áreas carentes. Esses centros estão agora fornecendo educação, treinamento profissional e assistência médica para aqueles que mais precisam.",
+        "image": "../img/doacao_palestina.avif",
+        "link": "doing.html"
+      },
+      {
+        "title": "Futuro da Criança",
+        "description": "Futuro da Criança consegue lançar novos programas educacionais e de saúde para crianças em comunidades desfavorecidas. As doações foram usadas para fornecer material escolar, refeições nutritivas e cuidados médicos para as crianças que atendem.",
+        "image": "../img/crianca_doacao.avif",
+        "link": "doing.html"
+      },
+      {
+        "title": "Alimente a Esperança",
+        "description": "Com as recentes doações, Alimente a Esperança conseguiu fornecer mais de 10.000 refeições para famílias que enfrentam insegurança alimentar. Além disso, também pudemos iniciar um programa de hortas comunitárias para promover a sustentabilidade alimentar a longo prazo.",
+        "image": "../img/doacao_alimento.avif",
+        "link": "doing.html"
+      }
+    ]
+  }
+  

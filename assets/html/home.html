@@ -1,234 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="ShareHeart" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Home pwa">
-    <title>ShareHeart</title>
     <link rel="stylesheet" href="../css/home.css" />
-    <script src="../js/navbar.js"></script>
-</head>
 
-<body>
-    <header>
-        <nav class="nav-bar">
-            <div class="logo">
-            </div>
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">XXXX</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">XXXX</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link"> XXXX</a></li>
-                </ul>
-            </div>
-            <div class="mobile-menu-icon">
-                <button aria-label="Open" onclick="menuShow()"><img class="icon" src="../img/menu_white_36dp.svg" alt=""></button>
-            </div>
-        </nav>
-        <div class="mobile-menu">
-            <ul>
-                <li class="nav-item"><a href="#" class="nav-link">XXXX</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">XXXX</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">XXXX</a></li>
-            </ul>
-    </header>
+    <title>Doação/Criação</title>
+  </head>
 
-    <div id="popup1" class="popup">
-        <div class="popup-content">
-            <span class="close">&times;</span>
-            <div class="content-container">
-                <img class="donate-popup" src="../img/doacao_palestina.avif" alt="image">
-                <div class="text-content">
-                    <h2>Corações Solidários</h2>
-                    <p>Corações Solidários é uma organização sem fins lucrativos dedicada a transformar vidas através da
-                        solidariedade. Nosso objetivo é apoiar comunidades carentes, oferecendo recursos e assistência
-                        para superar desafios e construir um futuro melhor. Suas doações nos ajudam a continuar nossa
-                        missão de amor e compaixão.</p>
+  <header>
+  </header>
 
-                    <p><a href="tel:81 912345678">Tefone: +55 81 912345678</a></p>
-                    <p><a href="mailto:fundacaocoracoes@contato.com">Email: fundacaocoracoes@contato.com</a></p>
-                </div>
-            </div>
-        </div>
+  <body>
+    <div class="container">
+      <div class="content">
+        <img
+          class="donate-img"
+          src="../img/caridade.png"
+          alt="image"
+          onclick="location.href='donate-category.html'"
+        />
+        <p>Realizar <br> doação</p>
+      </div>
+      <div class="content">
+        <img
+          class="donate-img"
+          src="../img/governo.png"
+          alt="image"
+          onclick="location.href='add-ong.html'"
+        />
+        <p>Cadastrar <br> ONG</p>
+      </div>
     </div>
-
-
-    <div id="popup2" class="popup">
-        <div class="popup-content">
-            <span class="close">&times;</span>
-            <div class="content-container">
-                <img class="donate-popup" src="../img/crianca_doacao.avif" alt="image">
-                <div class="text-content">
-                    <h2>Futuro da Criança</h2>
-                    <p>Futuro da Criança é uma ONG comprometida com o bem-estar e desenvolvimento das crianças.
-                        Acreditamos que cada criança merece um começo de vida saudável e oportunidades para crescer e
-                        aprender. Suas contribuições financiam programas educacionais, saúde infantil e proteção contra
-                        a violência, garantindo um futuro brilhante para nossos pequenos.</p>
-                    <p><a href="tel:81 912345678">Telefone: +55 81 912345678</a></p>
-                    <p><a href="mailto:fundacaocrianca@contato.com">Email: fundacaocrianca@contato.com</a></p>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <div id="popup3" class="popup">
-        <div class="popup-content">
-            <span class="close">&times;</span>
-            <div class="content-container">
-                <img class="donate-popup" src="../img/doacao_alimento.avif" alt="image">
-                <div class="text-content">
-                    <h2>Alimente a Esperança</h2>
-                    <p>Alimente a Esperança é uma iniciativa humanitária focada em combater a fome e a insegurança
-                        alimentar. Trabalhamos incansavelmente para fornecer alimentos nutritivos às famílias que
-                        enfrentam dificuldades, promovendo saúde e esperança. Com sua ajuda, podemos alcançar mais
-                        pessoas e alimentar mais sonhos.</p>
-                    <p><a href="tel:81 912345678">Telefone: +55 81 912345678</a></p>
-                    <p><a href="mailto:fundacaoalimentos@contato.com">Email: fundacaoalimentos@contato.com</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--<section class="home-banner">
-        <div class="hero-text">
-            <h1>JUNTOS, PODEMOS FAZER A DIFERENÇA!</h1>
-        </div>
-        <div>
-            <p>Sua doação pode transformar vidas e construir um futuro mais brilhante.</p>
-        </div>
-    </section>-->
-
-    <section class="content">
-        <h2>SOBRE</h2>
-        <h1>Nossa História</h1>
-        <div class="paragraph-content">
-            <p><b class="contrast">Bem-vindo ao ShareHeart, nosso aplicativo de doações!</b> Somos uma comunidade
-                dedicada a tornar o mundo um lugar melhor. Nosso objetivo é facilitar e incentivar a doação de recursos
-                materiais, financeiros e tempo para causas sociais diversas. Seja você um doador ou uma organização
-                beneficente, estamos aqui para conectar pessoas e promover o impacto positivo.
-                Nossa história começou com a paixão por ajudar os outros. Movidos pela compaixão e pelo desejo de fazer
-                a diferença, criamos esta plataforma para unir corações generosos. Juntos, podemos transformar vidas e
-                construir um futuro mais solidário.</p>
-        </div>
-        <button class="learn-more">Saiba Mais</button>
-    </section>
-
-    <section class="content">
-        <h2>NOSSAS</h2>
-        <h1>Categorias</h1>
-        <div class="paragraph-content">
-            <p>Explore nossas categorias e encontre a causa que mais ressoa com você. Temos uma variedade de áreas
-                para apoiar, desde educação e saúde até meio ambiente e direitos humanos. Escolha uma categoria que
-                toque seu coração e faça parte da mudança.</p>
-        </div>
-    </section>
-
-    <div class="categories">
-        <div class="categories-content">
-            <img class="categorie-img" src="../img/doacao1.avif" alt="image">
-            <h4 class="categorie-title">Educação</h4>
-            <p class="categorie-description">Ajude a proporcionar acesso à educação para crianças carentes.</p>
-        </div>
-        <div class="categories-content">
-            <img class="categorie-img" src="../img/doacao2.avif" alt="image">
-            <h4 class="categorie-title">Saúde</h4>
-            <p class="categorie-description">Contribua para tratamentos médicos, prevenção e bem-estar.</p>
-        </div>
-        <div class="categories-content">
-            <img class="categorie-img" src="../img/doacao3.avif" alt="image">
-            <h4 class="categorie-title">Meio Ambiente</h4>
-            <p class="categorie-description">Proteja nosso planeta e promova práticas sustentáveis.</p>
-        </div>
-        <div class="categories-content">
-            <img class="categorie-img" src="../img/doacao4.avif" alt="image">
-            <h4 class="categorie-title">Direitos Humanos</h4>
-            <p class="categorie-description">Lute pela igualdade, justiça e dignidade para todos.</p>
-        </div>
-    </div>
-
-    <section class="content-variant">
-        <div class="impact-section">
-            <img class="impact-image" src="../img/impacto.avif" alt="image">
-            <div class="text-content">
-                <h2>ENTENDA</h2>
-                <h1>Impacto das Doações</h1>
-                <p>Aqui, compartilhamos histórias inspiradoras sobre o impacto das doações. Conheça as pessoas e
-                    comunidades
-                    que foram beneficiadas graças à sua generosidade. Cada doação faz a diferença, e queremos celebrar
-                    essas
-                    conquistas juntos.</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="content">
-        <h2>AJUDE</h2>
-        <h1>Eles precisam de você</h1>
-        <div class="paragraph-content">
-            <p>Apoie, faça do mundo um lugar melhor! Mostre apoio às ONGS e faça a diferença com alguns cliques.</p>
-        </div>
-    </section>
-
-    <div class="donates">
-        <div class="donate-content">
-            <img class="donate-img" src="../img/doacao_palestina.avif" alt="image">
-            <h4 class="donate-title">Corações Solidários</h4>
-            <p class="donate-description">Apoie causas sociais e fortaleça comunidades. Sua contribuição faz a diferença
-                na vida de muitos.</p>
-            <div class="acess">
-                <button id="btn1" onclick="openPopup('popup1')">Saiba Mais</button>
-            </div>
-        </div>
-        <div class="donate-content">
-            <img class="donate-img" src="../img/crianca_doacao.avif" alt="image">
-            <h4 class="donate-title">Futuro da Criança</h4>
-            <p class="donate-description">Ajude a construir um futuro brilhante. Sua doação traz esperança e
-                oportunidades para crianças necessitadas.</p>
-            <div class="acess">
-                <button id="btn2" onclick="openPopup('popup2')">Saiba Mais</button>
-            </div>
-        </div>
-        <div class="donate-content">
-            <img class="donate-img" src="../img/doacao_alimento.avif" alt="image">
-            <h4 class="donate-title">Alimente a Esperança</h4>
-            <p class="donate-description">Combata a fome com generosidade. Cada doação ajuda a levar alimentos a quem
-                mais precisa de seu apoio.</p>
-            <div class="acess">
-                <button id="btn3" onclick="openPopup('popup3')">Saiba Mais</button>
-            </div>
-        </div>
-    </div>
-
-    <section class="content-variant">
-        <div class="voluntary-section">
-            <img class="voluntary-image" src="../img/voluntarios.avif" alt="image">
-            <div class="text-content">
-                <h2>SEJA</h2>
-                <h1>Um Voluntário</h1>
-                <p>Além das doações, incentivamos o voluntariado ativo. Seja parte de projetos locais, participe de
-                    eventos de limpeza, ou ofereça seu tempo e habilidades para causas que você acredita. O voluntariado
-                    é uma maneira poderosa de contribuir para um mundo melhor.</p>
-                <div class="hiperlink"><a href="#">Quero ser um voluntário</a></div>
-            </div>
-        </div>
-    </section>
-
-    <!--Script-->
-    <script src="../js/popup.js"></script>
-</body>
-
-<div id="mobile-footer">
+  </body>
+  <div id="mobile-footer">
     <a href="#" class="mobile-footer-link">
         <img src="../icon/home.png" alt="home" class="custom-icon" />
     </a>
     <a href="map.html" class="mobile-footer-link">
         <img src="../icon/map.png" alt="mapa" class="custom-icon" />
-    </a>
-    <a href="add-donate.html" class="mobile-footer-link">
-        <img src="../icon/add.png" alt="adicionar" class="custom-icon" />
     </a>
     <a href="donate-news.html" class="mobile-footer-link">
         <img src="../icon/history.png" alt="histórico" class="custom-icon" />
@@ -237,5 +49,4 @@
         <img src="../icon/profile.png" alt="perfil" class="custom-icon" />
     </a>
 </div>
-
 </html>
