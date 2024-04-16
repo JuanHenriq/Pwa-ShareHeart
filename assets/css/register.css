@@ -6,9 +6,11 @@ body {
   margin: 0;
   padding: 0;
   background-color: #fbfbfb;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   flex-direction: column;
 }
+
+
 
 .forms-register {
   margin-top: 2rem;
