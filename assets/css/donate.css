@@ -243,6 +243,22 @@ header {
   .content-container {
     flex-direction: column;
   }
+
+  .back-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #FF7700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 80%;
+    max-width: 100px;
+  }
 }
 
 /*Responsividade Tablet */
@@ -286,20 +302,5 @@ header {
   #mobile-footer a {
     display: none;
     text-decoration: none;
-  }
-  .back-button {
-    display: block;
-    margin: 20px auto;
-    padding: 10px 20px;
-    background-color: #FF7700;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-    width: 80%;
-    max-width: 100px;
   }
 }
